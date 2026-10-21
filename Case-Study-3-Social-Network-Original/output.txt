@@ -1,0 +1,19 @@
+SOCIAL NETWORK - SPARSE ADJACENCY MATRIX
+User ID range: 1 to 1,000,000
+Stored friendship pairs: 5
+Stored nonzero matrix cells: 10
+
+Sample matrix (1 = friends, 0 = not friends):
+            SAM     RAM    JOHN  RAMESH  SURESH
+    SAM     0     1     0     1     0
+    RAM     1     0     1     0     0
+   JOHN     0     1     0     0     1
+ RAMESH     1     0     0     0     1
+ SURESH     0     0     1     1     0
+Are SAM and RAMESH friends? True
+Are RAM and RAMESH friends? False
+
+After removing the friendship between SAM and RAMESH:
+Are SAM and RAMESH friends? False
+Stored friendship pairs: 4
+Stored nonzero matrix cells: 8

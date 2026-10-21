@@ -1,0 +1,28 @@
+CAMPUS DAY PLANNER - PRIORITY-FIRST GREEDY SCHEDULING
+Required transition gap: 10 minutes
+
+Proposed events:
+09:00-09:50  Data Structures Lecture   Priority 4  Room B204
+09:20-09:40  Advisor Check-in          Priority 5  Office 12
+10:00-10:20  Team Stand-up             Priority 4  Online
+10:25-11:10  Design Review             Priority 5  Studio 3
+11:00-11:45  Library Research          Priority 3  Library
+13:15-14:00  Mentor Session            Priority 5  Office 8
+14:10-15:00  Database Workshop         Priority 4  Room A110
+
+Greedy decisions (priority, then shorter duration):
+SELECT 09:20-09:40  Advisor Check-in - priority 5; no schedule conflict
+SELECT 10:25-11:10  Design Review - priority 5; no schedule conflict
+SELECT 13:15-14:00  Mentor Session - priority 5; no schedule conflict
+SKIP   10:00-10:20  Team Stand-up - conflicts with Design Review or its transition gap
+SKIP   09:00-09:50  Data Structures Lecture - conflicts with Advisor Check-in or its transition gap
+SELECT 14:10-15:00  Database Workshop - priority 4; no schedule conflict
+SKIP   11:00-11:45  Library Research - conflicts with Design Review or its transition gap
+
+Final schedule:
+09:20-09:40  Advisor Check-in          Priority 5  Office 12
+10:25-11:10  Design Review             Priority 5  Studio 3
+13:15-14:00  Mentor Session            Priority 5  Office 8
+14:10-15:00  Database Workshop         Priority 4  Room A110
+
+Events scheduled: 4 of 7

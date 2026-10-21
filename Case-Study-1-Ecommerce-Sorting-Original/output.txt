@@ -1,0 +1,21 @@
+E-COMMERCE: SORT BY CUSTOMER PAYABLE PRICE
+
+Catalog before sorting:
+Noise-Cancelling Headphones    | Audio     | List: Rs. 4800.00 | Discount: 25% | Payable: Rs. 3600.00 | Rating: 4.7
+Canvas Backpack                | Bags      | List: Rs. 3200.00 | Discount: 10% | Payable: Rs. 2880.00 | Rating: 4.5
+Desk Lamp                      | Home      | List: Rs. 1800.00 | Discount:  0% | Payable: Rs. 1800.00 | Rating: 4.2
+Coffee Grinder                 | Kitchen   | List: Rs. 4200.00 | Discount: 15% | Payable: Rs. 3570.00 | Rating: 4.6
+Water Bottle                   | Outdoor   | List: Rs. 1200.00 | Discount:  0% | Payable: Rs. 1200.00 | Rating: 4.4
+Running Shoes                  | Footwear  | List: Rs. 5000.00 | Discount: 20% | Payable: Rs. 4000.00 | Rating: 4.8
+Travel Organizer               | Bags      | List: Rs. 2400.00 | Discount: 25% | Payable: Rs. 1800.00 | Rating: 4.3
+
+Catalog after sorting (low to high):
+Water Bottle                   | Outdoor   | List: Rs. 1200.00 | Discount:  0% | Payable: Rs. 1200.00 | Rating: 4.4
+Desk Lamp                      | Home      | List: Rs. 1800.00 | Discount:  0% | Payable: Rs. 1800.00 | Rating: 4.2
+Travel Organizer               | Bags      | List: Rs. 2400.00 | Discount: 25% | Payable: Rs. 1800.00 | Rating: 4.3
+Canvas Backpack                | Bags      | List: Rs. 3200.00 | Discount: 10% | Payable: Rs. 2880.00 | Rating: 4.5
+Coffee Grinder                 | Kitchen   | List: Rs. 4200.00 | Discount: 15% | Payable: Rs. 3570.00 | Rating: 4.6
+Noise-Cancelling Headphones    | Audio     | List: Rs. 4800.00 | Discount: 25% | Payable: Rs. 3600.00 | Rating: 4.7
+Running Shoes                  | Footwear  | List: Rs. 5000.00 | Discount: 20% | Payable: Rs. 4000.00 | Rating: 4.8
+
+Price comparisons during merging: 14

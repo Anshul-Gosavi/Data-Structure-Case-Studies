@@ -1,0 +1,12 @@
+COMPUTER WORD DICTIONARY
+Hash table with separate chaining:
+Bucket 0: array: A group of values stored in order.; graph: A structure made of vertices and edges.
+Bucket 1: tree: A structure that stores data in parent-child form.; node: An item that can link to other items.
+Bucket 2: empty
+Bucket 3: queue: A structure that follows first in, first out.
+Bucket 4: stack: A structure that follows last in, first out.
+
+Search for 'graph': A structure made of vertices and edges.
+Search for 'heap': Word not found
+Delete 'node': True
+Search for 'node' after deletion: Word not found

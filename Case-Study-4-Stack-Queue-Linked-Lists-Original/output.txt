@@ -1,0 +1,17 @@
+STACK OF PLATES (LIFO)
+Push: Plate 1
+Push: Plate 2
+Push: Plate 3
+Top to bottom: Plate 3 -> Plate 2 -> Plate 1
+Peek: Plate 3
+Pop: Plate 3
+After pop: Plate 2 -> Plate 1
+
+CUSTOMER QUEUE (FIFO)
+Join: Customer A
+Join: Customer B
+Join: Customer C
+Front to rear: Customer A -> Customer B -> Customer C
+Peek: Customer A
+Serve: Customer A
+After serving: Customer B -> Customer C

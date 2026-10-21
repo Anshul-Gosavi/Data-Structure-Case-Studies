@@ -1,0 +1,5 @@
+CITY GPS ROUTE FINDER
+Start: My House
+Destination: Mall
+Shortest route: My House -> Temple -> School -> Post Office -> Railway Station -> Mall
+Total distance: 12 km
